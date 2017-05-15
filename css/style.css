@@ -1,0 +1,909 @@
+/*
+
+	Author: Supview
+	Template: Dilla
+	Version: 1.0
+	URL: http://themeforest.net/user/Supview/
+
+*/
+
+
+/* 01. FONT FACE ================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,700,500italic,900,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* 02. GENERALS SETTINGS ================================================== */
+
+body, html {
+  background: #222;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Selected text Color */
+
+::-moz-selection {
+  background: none;
+  color: #329fc7;
+}
+::selection {
+  background: none;
+  color: #329fc7;
+}
+.centered {
+  text-align: center;
+}
+b, strong {
+  font-weight: 800;
+}
+
+/* Make a space */
+
+.space {
+  padding: 20px 0;
+}
+.lead {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+  font-weight: 300;
+  color: #333;
+  line-height: 33px;
+  font-size: 21px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 42px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #333;
+  padding-bottom: 20px;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #444;
+  padding-bottom: 10px;
+}
+h5 {
+  font: 24px 'Roboto', sans-serif;
+  font-weight: normal;
+  font-weight: 100;
+  color: #FFF;
+}
+span {
+  font: 12px 'Roboto', sans-serif;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 0.60);
+}
+
+/* Link */
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: rgba(51, 51, 51, 0.50);
+}
+
+/* Paragrah */
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: rgba(32, 35, 38, 0.4);
+}
+p a {
+  color: #333;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+p a:hover {
+  color: #e4ca79;
+}
+.nomargin {
+  padding: 0;
+  margin: 0;
+}
+
+/* MAKE A CONTENT CENTERED VERTICALY AND HORIZONTALY */
+
+.content {
+  top: 50%;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.button {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 11px 26px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #3fb5e0;
+  border: 1px solid #3fb5e0;
+  color: #FFF;
+}
+.bordered {
+  padding: 13px 30px;
+  border-radius: 30px;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+.button.bordered:hover {
+  border-color: #3fb5e0;
+  background: none;
+}
+.button.blue {
+  background: #3fb5e0;
+  color: #FFF;
+  padding: 13px 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+  border-color: #3fb5e0;
+}
+.button.blue:hover {
+  background: #329fc7;
+  border-color: #329fc7;
+  color: #FFF;
+}
+
+/* 03. LIKE BTN	================================================== */
+
+.topbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+}
+#likebtn {
+  position: absolute;
+  right: 0;
+  padding-right: 40px;
+  top: 40px;
+  margin: auto;
+  z-index: 9999;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#likebtn ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 0px;
+  font-size: 14px;
+  color: #FFF;
+  margin: 0px 0px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+/* 04. HEADER SETTINGS ================================================== */
+
+#header {
+  background: #151515;
+  background-size: 100%;
+  position: relative;
+  height: 650px;
+  z-index: 9;
+}
+#header .row {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+}
+#header .logo {
+  width: 300px;
+  height: auto;
+  display: block;
+  opacity: 0;
+  position: relative;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+#header .logo.load {
+  opacity: 1;
+}
+#header .see_more {
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0;
+  display: inline-block;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+#header .see_more.load {
+  opacity: 1;
+}
+#header .see_more li {
+  display: inline-block;
+  padding-right: 15px;
+}
+#header .see_more li a {
+  display: block;
+  position: relative;
+  font-weight: 400;
+  color: rgba(200, 200, 200, 0.9);
+}
+#header .see_more li a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+#header .see_more li a:after {
+  content: '';
+  width: 0;
+  height: 1px;
+  position: absolute;
+  margin: auto;
+  display: block;
+  background: #3fb5e0;
+  margin-top: 5px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+#header .see_more li a:hover:after {
+  width: 60%;
+}
+
+/* Huge Title */
+
+.huge-title {
+  position: relative;
+  top: 46%;
+  margin: auto;
+  left: 8%;
+  max-width: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.huge-title h3 {
+  /*font-weight: 'thin';*/
+  font-size: 32px;
+  line-height: 51px;
+  opacity: 1;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+#header .button {
+  opacity: 0;
+}
+#header .button.load {
+  opacity: 1;
+}
+
+/* SELECTED WORKS */
+
+#header .header-backgrounds {
+  right: 0;
+  position: absolute;
+  margin-left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#header .header-backgrounds .header-background {
+  height: 100%;
+  position: relative;
+}
+#header .header-backgrounds .header-background .bg {
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  height: 100%;
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* 05. SCREENHOTS SETTINGS ================================================== */
+
+#screenshots {
+  z-index: 9;
+  background: #eff0f0;
+  position: relative;
+  overflow: hidden;
+}
+#screenshots .left-side {
+  padding: 80px 8%;
+  margin: 0 0;
+  /*// 在移动端，需要修改*/
+}
+#screenshots .row {
+  padding: 40px 40px;
+}
+
+#screenshots .right-side {
+  background: #F9F9F9;
+}
+#screenshots .item {
+  margin: 30px 0;
+}
+
+/* RIGHT SIDE	*/
+
+.right-side {
+  width: 50%;
+  position: absolute;
+  z-index: 90;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  padding: 110px;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.right-side a {
+  color: #333;
+}
+.right-side a:hover {
+  color: #333;
+}
+.right-side p:after {
+  content: '';
+  width: 7%;
+  height: 3px;
+  border-radius: 1px;
+  position: relative;
+  display: block;
+  background: #333;
+  margin-top: 40px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* LEFT SIDE	*/
+
+.left-side {
+  width: 50%;
+  position: relative;
+  left: 0;
+  height: 100%;
+  min-height: 100%;
+  top: 0;
+}
+.left-side .row {
+  height: auto;
+  position: relative;
+}
+.left-side .twelve:first-child {
+  /*margin-left: 2.12766%;*/
+}
+.list-style {
+  font-family: 'Roboto', sans-serif;
+  color: #999;
+}
+.list-style i {
+  padding-right: 15px;
+}
+.list-style li {
+  margin: 10px 0;
+}
+.discover-more {
+  margin-top: 50px;
+}
+
+/* 06. VIDEO SETTINGS	============================================ */
+
+#video {
+  padding: 180px 0;
+  position: relative;
+  background: url('../img/14326339,2880,1800_new.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 9;
+}
+#video h3 {
+  color: #FFF;
+  font-size: 42px;
+}
+#video a {
+  -webkit-transition: all 0.0s ease-in-out;
+  -moz-transition: all 0.0s ease-in-out;
+  -o-transition: all 0.0s ease-in-out;
+  transition: all 0.0s ease-in-out;
+}
+#video .play-ico {
+  max-width: 80px;
+  margin-top: 30px;
+}
+#video .play-ico:hover {
+  opacity: 0.5;
+}
+
+#rijian {
+  font-size: 20px;
+  color: #BBBBBB;font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+/* 07. ABOUT SETTINGS ================================================== */
+
+#about {
+  height: auto;
+  z-index: 9;
+  position: relative;
+  background: #FFF;
+}
+#about .row {
+  max-width: 1250px;
+}
+#about .columns {
+  margin-top: 30px;
+}
+#about .columns:first-child {
+  margin-top: 0px;
+}
+#about .info-box {
+  padding: 110px;
+}
+#about .big-picture {
+  /*background: url('../img/girl.jpg') no-repeat;*/
+  background-position: 20% bottom;
+  right: 0;
+  bottom: 0px;
+  display: block;
+  min-height: 100%;
+  position: absolute;
+}
+
+/* 08. CENTERED SECTION SETTINGS	============================================ */
+
+#centered {
+  background: #F1F1F1;
+  padding: 90px 0px 0px 0px;
+  z-index: 9;
+  position: relative;
+}
+#centered .line-of-iphone {
+  margin-top: 70px;
+  display: block;
+  position: relative;
+  height: auto;
+}
+#centered .line-of-iphone ul {
+  padding: 0px 15px;
+}
+#centered .line-of-iphone ul li {
+  padding: 0px 0px;
+  margin-bottom: -10px;
+}
+
+/* 09. CONNECTED SETTINGS ================================================== */
+
+#connected {
+  position: relative;
+  background: #FFF;
+  z-index: 9;
+  padding: 90px 0 50px 0;
+}
+#connected .row {
+  max-width: 1250px;
+}
+#connected h3 {
+  font-size: 40px;
+}
+#connected #connected_feed {
+  position: relative;
+  display: block;
+  padding: 30px;
+  height: auto;
+}
+#connected #connected_feed .flex-control-nav {
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: auto;
+}
+#connected .twitter-follow-button {
+  margin-top: 30px;
+}
+
+/* 10. CONTACT SETTINGS	============================================ */
+
+#contact {
+  background: #151515;
+  background-size: 100%;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#contact .row {
+  max-width: 100%;
+  height: 10px;
+}
+#contact p {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.20);
+}
+#contact a {
+  color: rgba(255, 255, 255, 0.50);
+}
+#contact a:hover {
+  color: #329fc7;
+}
+#contact ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+/* 11. BE INFORMED SETTINGS	============================================ */
+
+#appear-beinformed {
+  position: relative;
+  height: 520px;
+  width: 100%;
+  display: block;
+  /*display: none;*/
+}
+#beinformed {
+  background: url('../img/14326339,2880,1800_new.jpg');
+  background-size: cover;
+  z-index: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 80px 0 60px 0;
+}
+#beinformed h3 {
+  color: #FFF;
+  padding-bottom: 40px;
+}
+#beinformed p {
+  color: rgba(255, 255, 255, 0.60);
+}
+#beinformed form {
+  margin-top: 20px;
+}
+#beinformed input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-bottom: 40px;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+/* INPUT AND TEXTAREA WHEN NOTHING	*/
+
+#beinformed input:required {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.60);
+}
+
+/* INPUT AND TEXTAREA WHEN VALID : GOOD */
+
+#beinformed input:valid {
+  border-bottom: 1px solid #329fc7;
+  color: #FFF;
+}
+
+/* INPUT AND TEXTAREA WHEN INVALID : NOT GOOD GOES RED */
+
+#beinformed input:focus:invalid {
+  color: rgba(255, 255, 255, 0.60);
+  border-bottom: 1px solid #ec7e7e;
+}
+#beinformed .spam, #beinformed .msg-ok {
+  margin-top: 20px;
+  font-size: 10px;
+}
+#beinformed .button {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 15px 35px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+/* 12. LOADER OF THE PAGE	============================================ */
+
+.loader {
+  z-index: 9999999;
+  opacity: 1;
+  background: rgba(33, 33, 33, 0.95);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+.loader img {
+  position: relative;
+  top: 48%;
+  margin: auto;
+  max-width: 200px;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+/* 13. MEDIA QUERIES	============================================ */
+
+@media screen and (max-width: 768px) {
+  /* TOPBAR */
+  #likebtn {
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding-right: 0;
+    display: none;
+  }
+
+  .topbar {
+    display: none;
+  }
+  /* HEADER */
+  #header {
+    height: 100%;
+    /*padding: auto;*/
+    /*align-items: center;*/
+  }
+  #pc_app_img {
+    display: none;
+  }
+
+  #header .see_more {
+    display: block;
+  }
+  #header .logo, #header a.button {
+    text-align: center;
+    margin: auto;
+  }
+
+  #header .logo {
+
+    width: 200px;
+
+  }
+
+  #header .huge-title {
+
+    top:50%;
+    height: 80px;
+    margin-top: -80px;
+  }
+
+  .huge-title h3 {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px;
+    text-align: center;
+  }
+  #header .royalSlider {
+    position: absolute;
+    padding: 0 0;
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+    /*display: none;*/
+  }
+
+
+  /*#header .royalSlider*/
+
+  .huge-title {
+    max-width: 100%;
+    left: 0%;
+    top: auto;
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    text-align: center;
+  }
+  /* SCREENSHOTS */
+  .right-side {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .right-side h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .right-side p {
+    font-size: 12px;
+  }
+  .right-side p::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #screenshots .left-side {
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+    text-align: center;
+  }
+
+  #screenshots .row{
+    padding: 1px 1px;
+    margin: 0 0;
+  }
+
+  #screenshots .item {
+    margin: 1px 1px;
+    padding: 0 0;
+  }
+  #screenshots .button {
+    margin-right:3px;
+    padding:13px 18px;
+  }
+
+  .list-style li {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  /* ABOUT */
+  #about .info-box {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  /* VIDEO */
+  #video  {
+    background-attachment: scroll;
+    background-size:cover;
+    background-position: 50% 50%;
+  }
+  #video h3 {
+    font-size:26px;
+    line-height: 30px;
+  }
+
+  #rijian {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* CENTERED */
+  #centered {
+    padding-top: 60px;
+    background: #EEE;
+  }
+  #centered li {
+    width: 31%;
+  }
+  #centered li:first-child, #centered li:last-child {
+    display: none;
+  }
+  /* CONNECTED */
+  #connected h3 {
+    font-size: 28px;
+  }
+  #connected .flex-direction-nav {
+    display: none;
+  }
+  /* CONTACT */
+  #appear-contact {
+    display: none;
+  }
+  #contact {
+    height: auto;
+    padding: 20px 20px;
+    position: relative;
+  }
+  #contact .row {
+    padding: 20px;
+  }
+  #contact .row .columns {
+    padding: 20px 0 0px 0px;
+  }
+  #contact .row .columns:last-child {
+    padding: 0px 0;
+  }
+  .content {
+    top: auto;
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+  }
+  /* BEINFORMED */
+
+  #contact {
+    padding:  20px 0;
+  }
+
+  #appear-beinformed {
+    display: block;
+    height: 66px;
+    background-color: #151515;
+  }
+
+  #beinformed {
+    padding: 20px 0px;
+    position: relative;
+  }
+
+  #beinformed .row {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+
+
