@@ -105,7 +105,7 @@ $('a.videolightbox').vanillabox({
 function loading() {
 	var clientWidth = document.body.clientWidth
 	 if (clientWidth > 1000){
-         document.getElementById("pc_app_img").src = "img/Test.png";
+         document.getElementById("pc_app_img").src = "img/onedayweb_pic_large_1.png";
 
      }else {
          document.getElementById("pc_app_img").style.display = "none";

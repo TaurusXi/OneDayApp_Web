@@ -441,7 +441,7 @@ p a:hover {
 #video {
   padding: 180px 0;
   position: relative;
-  background: url('../img/14326339,2880,1800_new.jpg');
+  background: url('../img/onedayweb_bg_4.jpg');
   background-size: cover;
   background-attachment: fixed;
   z-index: 9;
@@ -603,7 +603,7 @@ p a:hover {
   /*display: none;*/
 }
 #beinformed {
-  background: url('../img/14326339,2880,1800_new.jpg');
+  background: url('../img/onedayweb_bg_4.jpg');
   background-size: cover;
   z-index: 0;
   position: fixed;
