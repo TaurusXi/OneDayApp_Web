@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7813a902-b042-4a73-a756-8fa9edde725d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ios_erweima.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_Logo@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_bg_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_bg_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_bg_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_bg_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_jietu_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_jietu_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_jietu_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_jietu_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_jietu_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_location.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_nightmode.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_qiclike.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_qicpublish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_sharehistory.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_large_touchid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_pic_large_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onedayweb_playbtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lazyWebp.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/12168184,2880,1800_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/12526677,2880,1800_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/14311008,2880,1800_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/14326339,2880,1800_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1494837479.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IMG_5391.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IMG_5394.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IMG_5396.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Logo@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jietu_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jietu_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jietu_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jietu_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jietu_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/play_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/分享你的故事.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/双击快速喜欢.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/夜间模式.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/快速发布.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/指纹解锁.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/精选的地理位置服务.jpg" afterPath="" />
+    <list default="true" id="7813a902-b042-4a73-a756-8fa9edde725d" name="Default" comment="webp兼容">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+            <state relative-caret-position="313">
+              <caret line="359" column="45" lean-forward="true" selection-start-line="359" selection-start-column="45" selection-end-line="359" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -464,7 +420,7 @@
       <workItem from="1494777359005" duration="17119000" />
       <workItem from="1494838583410" duration="2213000" />
       <workItem from="1495372553205" duration="328000" />
-      <workItem from="1498614336629" duration="5539000" />
+      <workItem from="1498614336629" duration="5833000" />
     </task>
     <task id="LOCAL-00001" summary="修改图片">
       <created>1498616504974</created>
@@ -473,24 +429,32 @@
       <option name="project" value="LOCAL" />
       <updated>1498616504974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="webp兼容">
+      <created>1498648269153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498648269153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44548000" />
+    <option name="totallyTimeSpent" value="44842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24594785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24594785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19293478" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -530,7 +494,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改图片" />
+    <MESSAGE value="webp兼容" />
+    <option name="LAST_COMMIT_MESSAGE" value="webp兼容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+        <state relative-caret-position="313">
+          <caret line="359" column="45" lean-forward="true" selection-start-line="359" selection-start-column="45" selection-end-line="359" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
