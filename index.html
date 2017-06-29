@@ -260,7 +260,7 @@
 
     </div>
 
-    <div class="line-of-iphone scrollme">
+    <div class="line-of-iphone scrollme is_webp">
 
         <ul class="five_up tiles">
             <li class="animateme" data-when="enter" data-from="1" data-to="0.2" data-opacity="1" data-translateY="150" data-rotatez="0"><img src="img/empty_pic.png" data-original="img/onedayweb_jietu_1.jpg"  alt="exemple"></li>
@@ -387,7 +387,8 @@
                     console.log("webpSrc:"+webpSrc);
                     $(this).attr('src', webpSrc);
                 }else {
-                    $(this).attr('src', orignSrc);
+                    var sourceSrc = "http://img.onedayapp.cn/" + orignSrc.replace("img/","") ;
+                    $(this).attr('src', sourceSrc);
                 }
             })
 

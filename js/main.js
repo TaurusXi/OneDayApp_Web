@@ -114,7 +114,7 @@ function loading() {
 
          var isWebpSupport = main_checkWebp();
          if (!isWebpSupport){
-             document.getElementById("pc_app_img").src = "img/onedayweb_pic_large_1.png";
+             document.getElementById("pc_app_img").src = "http://img.onedayapp.cn/onedayweb_pic_large_1.png";
          }else {
              document.getElementById("pc_app_img").src = "http://img.onedayapp.cn/onedayweb_pic_large_1.png?imageMogr2/format/webp";
          }
