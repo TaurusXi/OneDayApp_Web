@@ -100,12 +100,24 @@ $('a.videolightbox').vanillabox({
 /*	07. LOADING OF THE PAGE
 /*-----------------------------------------------------------------------------------*/
 
-
+    function main_checkWebp() {
+        try{
+            return (document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') == 0);
+        }catch(err) {
+            return  false;
+        }
+    }
 
 function loading() {
 	var clientWidth = document.body.clientWidth
 	 if (clientWidth > 1000){
-         document.getElementById("pc_app_img").src = "img/onedayweb_pic_large_1.png";
+
+         var isWebpSupport = main_checkWebp();
+         if (!isWebpSupport){
+             document.getElementById("pc_app_img").src = "img/onedayweb_pic_large_1.png";
+         }else {
+             document.getElementById("pc_app_img").src = "http://img.onedayapp.cn/onedayweb_pic_large_1.png?imageMogr2/format/webp";
+         }
 
      }else {
          document.getElementById("pc_app_img").style.display = "none";

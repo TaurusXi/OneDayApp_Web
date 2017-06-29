@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7813a902-b042-4a73-a756-8fa9edde725d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/empty_pic.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lazyWebp.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5685">
-              <caret line="379" column="21" lean-forward="false" selection-start-line="379" selection-start-column="8" selection-end-line="379" selection-end-column="21" />
+            <state relative-caret-position="73">
+              <caret line="357" column="108" lean-forward="true" selection-start-line="357" selection-start-column="108" selection-end-line="357" selection-end-column="108" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -69,8 +68,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="443" column="26" lean-forward="false" selection-start-line="443" selection-start-column="26" selection-end-line="443" selection-end-column="26" />
+            <state relative-caret-position="143">
+              <caret line="723" column="3" lean-forward="false" selection-start-line="723" selection-start-column="3" selection-end-line="723" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -130,7 +129,6 @@
       <find>100%</find>
       <find>right</find>
       <find>right-s</find>
-      <find>pc_app_img</find>
       <find>rsOverflow</find>
       <find>768</find>
       <find>right-side</find>
@@ -155,6 +153,7 @@
       <find>is_webp</find>
       <find>webp=&quot;true&quot;</find>
       <find>data-original</find>
+      <find>pc_app_img</find>
       <find>src=&quot;http://img.onedayapp.cn/</find>
     </findStrings>
     <replaceStrings>
@@ -174,11 +173,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/lazyWebp.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -195,7 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="1663" />
+    <option name="y" value="-100" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
   </component>
@@ -414,7 +414,7 @@
       <workItem from="1494777359005" duration="17119000" />
       <workItem from="1494838583410" duration="2213000" />
       <workItem from="1495372553205" duration="328000" />
-      <workItem from="1498614336629" duration="11592000" />
+      <workItem from="1498614336629" duration="12243000" />
     </task>
     <task id="LOCAL-00001" summary="修改图片">
       <created>1498616504974</created>
@@ -451,14 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498648962346</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="webp兼容">
+      <created>1498708548634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1498708548634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50601000" />
+    <option name="totallyTimeSpent" value="51252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <frame x="1663" y="-100" width="1440" height="828" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -519,11 +526,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>119</line>
+          <line>131</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/main.js</url>
-          <line>126</line>
+          <line>138</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -700,17 +707,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/onedayweb_playbtn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/ios_erweima.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/lazyWebp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="270" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="278" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/img/onedayweb_large_qiclike.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/onedayweb_pic_large_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -728,25 +743,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/onedayweb_pic_large_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="443" column="26" lean-forward="false" selection-start-line="443" selection-start-column="26" selection-end-line="443" selection-end-column="26" />
+        <state relative-caret-position="143">
+          <caret line="723" column="3" lean-forward="false" selection-start-line="723" selection-start-column="3" selection-end-line="723" selection-end-column="3" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/onedayweb_playbtn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/empty_pic.png">
@@ -754,18 +761,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lazyWebp.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="270" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="278" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5685">
-          <caret line="379" column="21" lean-forward="false" selection-start-line="379" selection-start-column="8" selection-end-line="379" selection-end-column="21" />
+        <state relative-caret-position="73">
+          <caret line="357" column="108" lean-forward="true" selection-start-line="357" selection-start-column="108" selection-end-line="357" selection-end-column="108" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />

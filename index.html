@@ -63,7 +63,7 @@
             <!-- see more -->
             <ul class="see_more">
                 <li><a class="goto" href="#video">每日一笺</a></li>
-                <li><a class="goto" href="#appear-beinformed">应用下载</a></li>
+                <li><a class="goto" href="#appear-bepc_app_imginformed">应用下载</a></li>
             </ul>
 
 
@@ -383,7 +383,8 @@
             $('.is_webp img').each(function(){
                 var orignSrc =  $(this).attr('data-original');
                 if (isWebpSupport) {
-                    var webpSrc = "http://pic.onedayapp.cn/" + orignSrc.replace("img/","") + "?imageMogr2/format/webp";
+                    var webpSrc = "http://img.onedayapp.cn/" + orignSrc.replace("img/","") + "?imageMogr2/format/webp";
+                    console.log("webpSrc:"+webpSrc);
                     $(this).attr('src', webpSrc);
                 }else {
                     $(this).attr('src', orignSrc);
